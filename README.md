@@ -6,16 +6,16 @@ This project conducts sales analysis for AltiQ Hardware Company, an electronic h
 
 ## Sample_Queries
 
-## Show distrinct product codes that were sold in chennai 
+Q1). Show distrinct product codes that were sold in chennai 
 ➡️ select distinct product_code from transactions where market_code='Mark001';
 
-## Show transactions where currency is US dollars  
+Q2). Show transactions where currency is US dollars  
 ➡️ select * from transactions where currency='USD';
 
-## Show transactions in 2020 join by date table 
+Q3). Show transactions in 2020 join by date table 
 ➡️ select t.* , d.* from transactions as t join date as d on d.date=t.order_date where year=2020;
 
-## Show total revenue in year 2020 
+Q4). Show total revenue in year 2020 
 ➡️ SELECT 
     SUM(transactions.sales_amount) as  revenue
 FROM
