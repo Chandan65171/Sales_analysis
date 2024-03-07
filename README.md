@@ -8,6 +8,8 @@ This project conducts sales analysis for AltiQ Hardware Company, an electronic h
 
 Q1). Show distrinct product codes that were sold in chennai 
 ➡️ select distinct product_code from transactions where market_code='Mark001';
+![Screenshot 2024-03-08 005942](https://github.com/Chandan65171/Sales_analysis/assets/145855999/59bc4da9-690b-4838-8890-c446ff75527f)
+
 
 Q2). Show transactions where currency is US dollars  
 ➡️ select * from transactions where currency='USD';
