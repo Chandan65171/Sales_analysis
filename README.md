@@ -38,13 +38,20 @@ Executed all SQL queries using a preferred SQL client or command line.
 
  ## Aim
  ➡️ This project aims to provide insights into:
+ 
  💠 Sales performance: Overall sales trends, top-performing products and regions.
+ 
  💠 Customer behavior: Identify buying patterns and key customer segments.
- 💠 Market analysis: Understand market trends and competitor performance (if data available).
+ 
+ 💠 Market analysis: Understand market trends and competitor performance.
+ 
  💠 Improve sales strategies and identify new growth opportunities.
+ 
  💠 Optimize product offerings and marketing campaigns.
+ 
  💠 Make data-driven decisions for better resource allocation.
 
 ##  Tools used
  💠 SQL (Query Language)
+ 
  💠 MySQL (Database) 
